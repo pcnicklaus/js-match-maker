@@ -10,18 +10,20 @@
       var phonePrompt = prompt("what is the students phone number?");
       var cityPrompt = prompt("What is the students city?");
       student.push({
-        name: namePrompt
+        name: namePrompt,
+        phone: phonePrompt,
+        city: cityPrompt,
       });
 
       // var contactInfo = {};
       // contactInfo.name = namePrompt;
 
-      namePrompt = namePrompt
-      console.log("name" + contactInfo)
-      phonePrompt = phonePrompt.student ;
-      cityPrompt.student = cityPrompt;
-      contactInfo.push({name: namePrompt, phone: phonePrompt, city: cityPrompt});
-      console.log("Student" + contactInfo)
+      // namePrompt = namePrompt
+      // console.log("name" + contactInfo)
+      // phonePrompt = phonePrompt.student ;
+      // cityPrompt.student = cityPrompt;
+      // contactInfo.push({name: namePrompt, phone: phonePrompt, city: cityPrompt});
+      console.log("Student" + student)
     }
 
   // var mentorsNumber =  prompt("How many Mentors are teaching JavaScript?");
