@@ -1,79 +1,84 @@
-//I want to create an object for each student and then push into student array. don't need a function to start//
-var student = [];
-var mentor = [];
-var studentsNumber = prompt("How many students are learning JavaScript?");
 
-var mentorsNumber =  prompt("How many Mentors are teaching JavaScript?");
+// var student = [];
+// var mentor = [];
+// var studentsNumber = prompt("How many students are learning JavaScript?");
 
-function studentList() {
-  for (var i = 0; i < studentsNumber; i++) {
-      var nameStudentPrompt = prompt("What is the students name?");
-      var phoneStudentPrompt = prompt("what is the students phone number?");
-      var cityStudentPrompt = prompt("What is the students city?");
-      student.push({
-        name: nameStudentPrompt,
-        phone: phoneStudentPrompt,
-        city: cityStudentPrompt
-      });
-      console.log("Student" + student);
+// function studentList() {
+//   for (var i = 0; i < studentsNumber; i++) {
+//       var nameStudentPrompt = prompt("What is the students name?");
+//       var phoneStudentPrompt = prompt("what is the students phone number?");
+//       var cityStudentPrompt = prompt("What is the students city?");
+//       student.push({
+//         name: nameStudentPrompt,
+//         phone: phoneStudentPrompt,
+//         city: cityStudentPrompt
+//       });
+//       console.log("Student" + student);
 
-    }
-    console.log(student);
-}
-studentList();
+//     }
+//     console.log(student);
+// }
+// studentList();
 
-function mentorList() {
-  for (var i = 0; i < mentorsNumber; i++) {
-      var namePrompt = prompt("What is the mentors name?");
-      var phonePrompt = prompt("what is the mentors phone number?");
-      var cityPrompt = prompt("What is the mentors city?");
-      mentor.push({
-        name: namePrompt,
-        phone: phonePrompt,
-        city: cityPrompt
-      });
-      console.log("Mentor" + mentor);
-    }
-    console.log(mentor);
-}
-mentorList();
+// var mentorsNumber =  prompt("How many Mentors are teaching JavaScript?");
 
-alertStudentInfo();
-function alertStudentInfo() {
-  for (var i = 0; i < student.length; i++) {
-    alert("Students\nName: " + student[i].name + "\nPhone Number: " + student[i].phone + "\nCity: " + student[i].city);
-  };
-}
+// function mentorList() {
+//   for (var i = 0; i < mentorsNumber; i++) {
+//       var namePrompt = prompt("What is the mentors name?");
+//       var phonePrompt = prompt("what is the mentors phone number?");
+//       var cityPrompt = prompt("What is the mentors city?");
+//       mentor.push({
+//         name: namePrompt,
+//         phone: phonePrompt,
+//         city: cityPrompt
+//       });
+//       console.log("Mentor" + mentor);
+//     }
+//     console.log(mentor);
+// }
+// mentorList();
 
-alertMentorInfo();
-function alertMentorInfo() {
-  for (var i = 0; i < mentor.length; i++) {
-    alert("Mentors\nName: " + mentor[i].name + "\nPhone Number: " + mentor[i].phone + "\nCity: " + mentor[i].city);
-  };
-}
+// alertStudentInfo();
+// function alertStudentInfo() {
+//   for (var i = 0; i < student.length; i++) {
+//     alert("Students\nName: " + student[i].name + "\nPhone Number: " + student[i].phone + "\nCity: " + student[i].city);
+//   };
+// }
 
-// find mentors in city
-var studentsInCity = 0;
-var mentorsInCityArray = [];
-var cityNewPrompt = prompt("what city do you live in?");
+// alertMentorInfo();
+// function alertMentorInfo() {
+//   for (var i = 0; i < mentor.length; i++) {
+//     alert("Mentors\nName: " + mentor[i].name + "\nPhone Number: " + mentor[i].phone + "\nCity: " + mentor[i].city);
+//   };
+// }
 
-cityCheck();
+// // find mentors in city
+// var studentsInCity = 0;
+// var mentorsInCityArray = [];
+// var cityNewPrompt = prompt("what city do you live in?");
 
-function cityCheck() {
-  for (var i = 0; i < mentor.length; i++) {
-    if (cityNewPrompt === mentor[i].city) {
-        mentorsInCityArray.push(mentor[i]);
-    }
-    console.log(mentorsInCityArray);
-  }
-}
+// cityCheck();
 
-alertCity();
-function alertCity() {
-  for (var i = 0; i < mentorsInCityArray.length; i++) {
-    alert("Mentors in your city\nName: " + mentorsInCityArray[i].name + "\nPhone Number: " + mentorsInCityArray[i].phone + "\nCity: " + mentorsInCityArray[i].city);
-  };
-}
+// function cityCheck() {
+//   for (var i = 0; i < mentor.length; i++) {
+//     if (cityNewPrompt === mentor[i].city) {
+//         mentorsInCityArray.push(mentor[i]);
+//     }
+//     console.log(mentorsInCityArray);
+//   }
+// }
+
+// alertCity();
+// function alertCity() {
+//   for (var i = 0; i < mentorsInCityArray.length; i++) {
+//     alert("Mentors in your city\nName: " + mentorsInCityArray[i].name + "\nPhone Number: " + mentorsInCityArray[i].phone + "\nCity: " + mentorsInCityArray[i].city);
+//   };
+// }
+
+
+
+
+
 
 
 
