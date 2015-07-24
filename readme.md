@@ -1,3 +1,7 @@
+Still want to go in and try to attempt the bonus challenges. Also I need to refactor a bit of my code because i think it's a bit sloppy. Wanted to get it turned in per Michael's request this morning. Want to try to spend a bit of time this weekend doing so hopefully will have that pushed up to Github by sunday afternoon.
+- patrick
+
+
 JavaScript Match Maker!
 GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, and data structures and practice your problem solving skills by creating a fun program to match students with mentors.
 
